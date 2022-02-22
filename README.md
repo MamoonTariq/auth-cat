@@ -20,3 +20,7 @@
 ##### nest g service auth
 
 ##### npm i express-session
+
+##### npm i --save @nestjs/jwt passport-jwt
+
+##### npm i -D @types/passport-jwt
