@@ -7,16 +7,16 @@
 
 ### Authentications
 
-## npm i --save @nestjs/passport passport passport-local
+# npm i --save @nestjs/passport passport passport-local
 
-## npm i --save-dev @types/passport-local
+# npm i --save-dev @types/passport-local
 
-## nest g module users
+# nest g module users
 
-## nest g service users
+# nest g service users
 
-## nest g module auth
+# nest g module auth
 
-## nest g service auth
+# nest g service auth
 
-## npm i express-session
+# npm i express-session
