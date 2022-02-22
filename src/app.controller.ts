@@ -11,7 +11,7 @@ export class AppController {
   @UseGuards(LocalAuthGuard)
   @Post('login')
   login(@Request() req: any): any {
-    return req.user;
+    return { data: req.user, message: 'loggedIN' };
   }
 
   @UseGuards(AuthenticatedGuard)
